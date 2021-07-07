@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1rem;
+}
+
+.wrapper {
+    background: white;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    height: 370px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.wrapper h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.7rem;
+    margin: 10px 0 12px;
+    font-weight: 500;
+}
+
+form {
+    margin-top: 22px;
+}
+
+form input {
+    padding: 9px 8px 7px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    line-height: 1.3rem;
+}
+
+form input::placeholder {
+    color: #a8a8a8;
+}
+
+form input:focus {
+    border: 1px solid #a8a8a8;
+    outline: none;
+}
+
+input,
+button {
+    width: 100%;
+    border-radius: 3px;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.2rem;
+}
+
+.or-or {
+    font-weight: bold;
+    color: #a8a8a8;
+    font-size: 0.8rem;
+    margin: 0 1rem;
+}
+
+.or hr {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.facebook {
+    color: #385185;
+    font-weight: 600;
+}
+
+.password {
+    font-size: 12px;
+    color: #00376b;
+}
+
+.fb {
+    margin-bottom: 0.9rem;
+}
+
+.pw {
+    margin-bottom: 0.7rem;
+}
+
+
+/* Signup */
+
+.sign-up {
+    background: white;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.link {
+    font-weight: 500;
+    color: #0095f6;
+}
+
+
+/* Apps */
+
+.apps p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.app-images {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* Utilities */
+
+.bg-light {
+    background: #b2dffc;
+    color: white;
+    padding: 6px 0;
+    font-weight: 800;
+    margin: 10px 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Other Links */
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 0.75rem;
+}
+
+.other-links a {
+    color: #8e8e8e;
+    display: block;
+    margin: 8px 12px 8px;
+}
+
+footer {
+    padding-bottom: 3.6rem;
+    padding-top: 1rem;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8e8e;
+    text-align: center;
+}
+
+@media(max-width: 450px) {
+    .wrapper {
+        background: inherit;
+        border: none;
+    }
+    .sign-up {
+        background: inherit;
+        border: none;
+    }
+}
